@@ -1,7 +1,4 @@
 function countingDuplicates(arg_str) {
-	
-	let counter = 0;
-	let dup_arr = [];
 	const tally = {};
 	let loc_str = arg_str.toLowerCase().split('');
 
